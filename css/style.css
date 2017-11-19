@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************************************
+　*Google Fonts 読み込み*
+ *************************************/
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+
+
+/*************************************
+ 	reset
+ *************************************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-y: scroll;
+}
+img { border:0; }
+
+ol, ul { list-style:none; }
+fieldset, img { border:0; }
+table {
+	border-collapse: collapse;
+	border-spacing:0;
+}
+caption, th { text-align: left; }
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*************************************
+ 	共通
+ *************************************/
+body {
+	font: 14px/1.7 'Lucida Grande',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,sans-serif;
+	color:#666; letter-spacing: 0.7px;
+}
+
+.b0 { margin-bottom:0px!important; }
+.b5 { margin-bottom:5px!important; }
+.b10 { margin-bottom:10px!important; }
+.b20 { margin-bottom:20px!important; }
+.b30 { margin-bottom:30px!important; }
+.b40 { margin-bottom:40px!important; }
+.b50 { margin-bottom:50px!important; }
+.b60 { margin-bottom:60px!important; }
+.b70 { margin-bottom:70px!important; }
+.b80 { margin-bottom:80px!important; }
+.t0 { margin-top:0px!important; }
+.t5 { margin-top:5px!important; }
+.t10 { margin-top:10px!important; }
+.t12 { margin-top:12px!important; }
+.t20 { margin-top:20px!important; }
+.t30 { margin-top:30px!important; }
+.t40 { margin-top:40px!important; }
+.t50 { margin-top:50px!important; }
+.t60 { margin-top:60px!important; }
+.t-5 { margin-top:-5px!important; }
+.t-10 { margin-top:-10px!important; }
+.t-15 { margin-top:-15px!important; }
+.t-20 { margin-top:-20px!important; }
+.t-25 { margin-top:-25px!important; }
+.t-30 { margin-top:-30px!important; }
+.l0 { margin-left:0px!important; }
+.l5 { margin-left:5px!important; }
+.l10 { margin-left:10px!important; }
+.l20 { margin-left:20px!important; }
+.l25 { margin-left:25px!important; }
+.l30 { margin-left:30px!important; }
+.l40 { margin-left:40px!important; }
+.l50 { margin-left:50px!important; }
+.l60 { margin-left:60px!important; }
+.l70 { margin-left:70px!important; }
+.l80 { margin-left:80px!important; }
+.l90 { margin-left:90px!important; }
+.l100 { margin-left:100px!important; }
+.l110 { margin-left:110px!important; }
+.l-5 { margin-left:-5px!important; }
+.l-10 { margin-left:-10px!important; }
+.l-20 { margin-left:-20px!important; }
+.r0 { margin-right:0px!important; }
+.r5 { margin-right:5px!important; }
+.r10 { margin-right:10px!important; }
+.r20 { margin-right:20px!important; }
+.r30 { margin-right:30px!important; }
+.r40 { margin-right:40px!important; }
+.r50 { margin-right:50px!important; }
+.r60 { margin-right:60px!important; }
+.r70 { margin-right:70px!important; }
+.r80 { margin-right:80px!important; }
+.r90 { margin-right:90px!important; }
+
+.pb0 { padding-bottom:0px!important; }
+.pb5 { padding-bottom:5px!important; }
+.pb10 { padding-bottom:10px!important; }
+.pb20 { padding-bottom:20px!important; }
+.pb30 { padding-bottom:30px!important; }
+.pb40 { padding-bottom:40px!important; }
+.pb50 { padding-bottom:50px!important; }
+.pb60 { padding-bottom:60px!important; }
+.pb70 { padding-bottom:70px!important; }
+.pb80 { padding-bottom:80px!important; }
+.pt0 { padding-top:0px!important; }
+.pt5 { padding-top:5px!important; }
+.pt10 { padding-top:10px!important; }
+.pt12 { padding-top:12px!important; }
+.pt20 { padding-top:20px!important; }
+.pt30 { padding-top:30px!important; }
+.pt40 { padding-top:40px!important; }
+.pt50 { padding-top:50px!important; }
+.pt60 { padding-top:60px!important; }
+
+.pr0 { padding-right:0px!important; }
+.pr5 { padding-right:5px!important; }
+.pr10 { padding-right:10px!important; }
+.pr15 { padding-right:15px!important; }
+.pr20 { padding-right:20px!important; }
+
+.pl0 { padding-left:0px!important; }
+.pl5 { padding-left:5px!important; }
+.pl10 { padding-left:10px!important; }
+.pl15 { padding-left:15px!important; }
+.pl20 { padding-left:20px!important; }
+
+.lh12 { line-height:1.2em !important; }
+.lh13 { line-height:1.3em !important; }
+.lh14 { line-height:1.4em !important; }
+.lh15 { line-height:1.5em !important; }
+.lh16 { line-height:1.6em !important; }
+.lh17 { line-height:1.7em !important; }
+.lh18 { line-height:1.8em !important; }
+.lh19 { line-height:1.9em !important; }
+.lh20 { line-height:2.0em !important; }
+.lh22 { line-height:2.2em !important; }
+.lh24 { line-height:2.4em !important; }
+.lh26 { line-height:2.6em !important; }
+
+
+/*クリア*/
+.clearfix:after { content: ""; display: block; clear: both; }
+.clear_ov{ overflow:hidden;}
+/*イメージ（画像）を中央に表示*/
+.center_ds {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*divを中央に表示*/	
+.center {
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+/*　フォント関係　*/
+.f10 { font-size:110% !important; }
+.f20 { font-size:120% !important; }
+.f30 { font-size:130% !important; }
+.f40 { font-size:140% !important; }
+.f50 { font-size:150% !important; }
+.fs90 { font-size:90% !important; }
+.fs85 { font-size:85% !important; }
+.fs80 { font-size:80% !important; }
+.fs75 { font-size:75% !important; }
+.fs70 { font-size:70% !important; }
+.fw { font-weight:bold !important; }
+.fwn{ font-weight:normal !important;}
+.c_pink { color:#FB688D; }
+.c_red { color:#F5421F; }
+.c_blu { color:#258AD4; }
+.c_ore { color:#F15A24; }
+.c_cha { color:#C3932C; }
+.c_kogecha { color:#98024F; }
+.c_pul { color:#60157E; }
+.c_gre { color:#62A431; }
+.c_gre2 { color:#087B7D; }
+.c_higre { color:#97C12B; }
+
+/** リンク　**/
+.link { cursor:pointer; }
+
+.img_link_on a:hover img{
+	opacity:0.7 !important;
+	filter: alpha(opacity=70) !important;        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=70)" !important;  /* ie 8 */
+	-moz-opacity:0.7 !important;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.7 !important;              /* Safari 1.x */
+	zoom:1 !important;
+}
+
+a{/*リンクされた文字*/
+    color:#888888;
+    text-decoration:none;
+}
+a:link {/*未訪問のリンク*/
+}
+
+article.comparison{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.thumb_box{
+	list-style: none;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.thumb_box li{
+	margin: 10px 15px;
+	padding:10px;
+}
+
+.thumb_box li.current{
+	background-color: #ccc;
+	margin: 10px 15px;
+}
+
+
+.thumb_box img{
+	display: block;
+}
+
+.info_box{
+	list-style: none;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.info_box li{
+	display: none;
+	margin: 10px 15px;
+}
+
+.info_box li.current{
+	display: block;
+}
+
+
+.thumb_box img{
+	display: block;
+}
